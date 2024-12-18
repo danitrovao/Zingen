@@ -1,4 +1,5 @@
 🎤 Zingen - Quem Canta Seus Males Espanta 🎶
+
 Zingen é um projeto desenvolvido como parte do curso de Fullstack da Rocketseat com o objetivo de colocar em prática os conhecimentos adquiridos em desenvolvimento Front-end.
 
 O Zingen é o aplicativo perfeito para quem ama cantar e deseja evoluir suas habilidades musicais, usando tecnologias modernas e conceitos essenciais para o aprendizado no desenvolvimento web!
