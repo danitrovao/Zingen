@@ -23,4 +23,5 @@ O foco deste projeto é o aprendizado, proporcionando uma aplicação realista o
 🛠️ Tecnologias Utilizadas
 HTML5
 CSS3
+
 ![Zingen 5](https://github.com/user-attachments/assets/4e898d39-c7d5-470e-b0d5-6a4d99c408de)
