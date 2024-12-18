@@ -1,60 +1,66 @@
 .py-base {
     padding-block: var(--py-base);
-}
-
-.py-lg {
+  }
+  
+  .py-lg {
     padding-block: var(--py-lg);
-}
-
-.py-xl {
+  }
+  
+  .py-xl {
     padding-block: var(--py-xl);
-}
-
-.px-lg {
-    padding-inline: var(--px-lg);
-}
-
-
-.container {
-    --max-width:375px;
+  }
+  
+  .px-lg {
+    padding-block: var(--px-lg);
+  }
+  
+  .container {
+    --max-width: 375px;
     width: min(var(--max-width), 100% - var(--px-lg) * 2);
     margin-inline: auto;
-    border: solid violet;
-}
-
-.desktop-only {
+    /* border: solid violet; */
+  }
+  
+  .desktop-only {
     display: none;
-}
-
-.even-colums {
+  }
+  
+  .even-columns {
     display: grid;
     gap: 1rem;
-}
-
-.flex {
+  }
+  
+  .flex {
     display: flex;
-}
-
-.gap-1 {
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .gap-1 {
     gap: 1rem;
-}
-
-.grid {
-    display: grid ;
-}
-
-@media (width >= 80em) {
+  }
+  
+  .gap-1\.5 {
+    gap: 1.5rem;
+  }
+  
+  .grid {
+    display: grid;
+  }
+  
+  @media (width >= 80em) {
     .container {
-        --max-width: 80rem;
+      --max-width: 80rem;
     }
-
+  
     .desktop-only {
-        display: initial;
+      display: initial;
     }
-
-    .even-colums {
-        grid-auto-flow: column;
-        grid-auto-columns: 1fr;
+  
+    .even-columns {
+      grid-auto-flow: column;
+      grid-auto-columns: 1fr;
     }
-    
-}
+  }
